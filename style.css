@@ -3,6 +3,7 @@ ul {
     margin: 0;
     padding: 0px;
 }
+
 li {
     list-style: none;
 }
@@ -11,7 +12,8 @@ h3 {
     margin: 0;
 }
 
-input, button{
+input,
+button {
     outline: none;
 }
 
@@ -25,6 +27,7 @@ input, button{
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .button:hover {
     color: #3a3A3a;
 }
@@ -34,6 +37,7 @@ input, button{
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .button__delete img:hover {
     transform: rotateZ(0);
 }
