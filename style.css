@@ -1,10 +1,10 @@
 /* Basic Style */
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 li {
-    list-style:none;
+    list-style: none;
 }
 
 h3 {
@@ -12,7 +12,7 @@ h3 {
 }
 
 input, button{
-    outline:none;
+    outline: none;
 }
 
 /* Buttons */
@@ -135,14 +135,14 @@ input, button{
 
 /* Edit Task */
 .task__wrapper_row .task__edit {
-    display:none;
+    display: none;
 }
 
 .editMode .task__edit {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
+    width: 224px;
 }
 
 .editMode label {
-    display:none;
+    display: none;
 }
