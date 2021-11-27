@@ -61,16 +61,19 @@ input, button{
     display: block;
     text-align: right;
 }
+
 .header__img {
     width: 100%;
 }
+
 .header__more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+  .header { 
+    text-align: center;
+  }
 }
 
 /* Heading */
@@ -84,11 +87,7 @@ input, button{
     text-transform: uppercase;
 }
 
-
-
-
 /* Task list */
-
 .task__wrapper {
     display: flex;
     padding: 20px 0 0;
